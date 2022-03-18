@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   font-family: Roboto;
@@ -17,11 +16,12 @@ nav {
   align-items: center;
   align-content: center;
   justify-content: space-between;
-  padding: 16px;
+  padding: 16px 15% 16px 15%;
 }
 
 nav .header-logo {
   font-size: 24px;
+  font-weight: 700;
   color: #F9FAF8;
   text-decoration: none;
 }
@@ -46,9 +46,164 @@ footer {
   padding: 16px;
 }
 
-
 .body {
   display: flex;
   flex: 1;
   flex-direction: column;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  padding: 1% 0 3% 0;
+  min-height: 30%;
+  background-color: #1F2937;
+}
+
+.hero .left {
+  padding-top: 48px;
+  max-width: 25%;
+}
+
+.hero .left h1 {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.hero .left p {
+  color: #E5E7EB;
+  padding-right: 5%;
+}
+
+.hero button {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 8px 32px 8px 32px;
+  background-color: #3882F6;
+  color: white;
+  border-radius: 8px;
+  border: 0;
+}
+
+.hero button:hover {
+  cursor: pointer;
+  border: 1 black solid;
+}
+
+.hero .right img {
+  height: 300px;
+  color: #F9FAF8;
+  border-radius: 5%;
+}
+
+.random-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 16px;
+}
+
+.random-information h3 {
+  font-size: 36px;
+  color: #1F2937;
+}
+
+.random-information .blocks {
+  display: flex;
+  flex-direction: row;
+  height: 40vh;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  margin: 16px;
+}
+
+.block-image {
+  height: 180px;
+  width: 180px;
+  border: 2px black solid;
+  border-radius: 16px;
+}
+
+.block p {
+  width: 160px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+  padding: 3rem 0 3rem 0;
+}
+
+.quote h2 {
+  display: flex;
+  flex: 0 1;
+  width: 40%;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.quote h4 {
+  display: flex;
+  text-align: right;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.call-to-action {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.call-to-action .card {
+  display: flex;
+  color: white;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 25%;
+  width: 50%;
+  padding: 32px;
+  background-color: #3882F6;
+  border-radius: 16px;
+}
+
+.call-to-action b {
+  font-size: 32px;
+}
+
+.call-to-action p {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.call-to-action button {
+  display: flex;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 16px 8px 16px;
+  border: 2px white solid;
+  border-radius: 8px;
+  background-color: #3882F6;
+}
+
+footer {
+  padding: 32px 0 32px 0;
 }
