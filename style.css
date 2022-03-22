@@ -87,7 +87,7 @@ footer {
   border: 0;
 }
 
-.hero button:hover {
+button:hover {
   cursor: pointer;
   border: 1 black solid;
 }
